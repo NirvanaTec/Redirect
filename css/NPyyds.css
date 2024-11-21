@@ -1,0 +1,100 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #d3f0fb;
+}
+
+.Nirvana {
+    position: absolute;
+    top: 35%;
+    left: 44%;
+}
+
+.Nirvana img {
+    width: 128px;
+    height: 128px;
+    animation: z1 0.4s forwards, z3 0.4s forwards 1s, z5 0.2s forwards 2s;
+}
+
+.Nirvana p {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    animation: z2 0.4s forwards, z4 0.4s forwards 1s;
+}
+
+@keyframes z1 {
+    0% {
+        width: 0;
+        height: 0;
+    }
+    100% {
+        width: 128px;
+        height: 128px;
+    }
+}
+
+@keyframes z2 {
+    0% {
+        font-size: 0;
+    }
+    100% {
+        font-size: 14px;
+    }
+}
+
+@keyframes z3 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes z4 {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes z5 {
+    from {
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+
+    to {
+        opacity: 0;
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes z6 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes z7 {
+    from {
+        backdrop-filter: blur(20px);
+    }
+    to {
+        backdrop-filter: blur(0px);
+    }
+}
+
+.Space {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(20px);
+    animation: z7 1.1s forwards;
+}

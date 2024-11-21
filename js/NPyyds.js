@@ -1,0 +1,10 @@
+console.log("-------------------------");
+console.log("涅槃科技 © 版权所有");
+console.log("One: npyyds.top");
+console.log("Two: buy.npyyds.top");
+console.log("点击链接加入腾讯频道【涅槃科技】: https://pd.qq.com/s/7s4bjpv06");
+console.log("项目开源地址: https://gitee.com/newNP/");
+console.log("-------------------------");
+console.log("");
+console.log("如果你使用此项目，请不要删除上面的信息！");
+console.log("最终解释权归涅槃科技所有！");
